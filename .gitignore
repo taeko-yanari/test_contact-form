@@ -1,0 +1,11 @@
+# MySQL data directory
+docker/mysql/data/
+
+# OS files
+.DS_Store
+
+# Node modules (もしルートにできる場合)
+node_modules/
+
+# Composer vendor（もしルートに vendor ができた場合）
+vendor/
