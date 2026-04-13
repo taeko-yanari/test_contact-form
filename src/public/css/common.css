@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+body {
+    color: #8a7767;
+    font-family: "Hiragino Kaku Gothic Pro", "Yu Gothic", sans-serif;
+}
+
+/* ヘッダー */
+.header {
+    padding: 10px 0;
+    border-bottom: 3px solid #f3f3f3;
+}
+
+.site-title {
+    font-family: "Inika", serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2.46rem;
+}

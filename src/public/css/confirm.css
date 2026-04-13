@@ -1,0 +1,67 @@
+.confirm-container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+.section-title {
+    font-family: "Inika", serif;
+    font-weight: lighter;
+    font-size: 2.1rem;
+    text-align: center;
+}
+
+/* 確認フォーム */
+.confirm-table__wrapper {
+    border: 2px solid #f6f6f6;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.confirm-table__column:last-child .confirm-table__label,
+.confirm-table__column:last-child .confirm-table__item {
+    border-bottom: none;
+}
+.confirm-table__label,
+.confirm-table__item {
+    border-bottom: 2px solid #f6f6f6;
+}
+
+.confirm-table__label {
+    background: #baa999;
+    color: #fff;
+    font-weight: normal;
+    text-align: left;
+    padding: 20px 0 20px 50px;
+}
+
+.confirm-table__item {
+    padding: 20px 30px;
+}
+
+.confirm__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.confirm__button-submit {
+    background: #8a7767;
+    border: none;
+    color: #fff;
+    width: 120px;
+    height: 36px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 1.14rem;
+    line-height: 1px;
+}
+
+.confirm__button-back {
+    color: #8a7767;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    font-size: 1.14rem;
+}
